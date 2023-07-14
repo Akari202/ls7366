@@ -1,4 +1,4 @@
-#![cfg(no_std)]
+#![no_std]
 
 use self::embedded_hal::{digital::v2::OutputPin, blocking};
 extern crate embedded_hal;
