@@ -1,0 +1,8 @@
+[package]
+name = "ls7366"
+version = "0.1.0"
+authors = ["Akari202 <akaritwo0two@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+embedded-hal = "0.2.3"
