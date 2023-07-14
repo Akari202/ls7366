@@ -1,5 +1,8 @@
+#![cfg(no_std)]
+
 use self::embedded_hal::{digital::v2::OutputPin, blocking};
 extern crate embedded_hal;
+use core::panic;
 
 pub const NQUAD: u8 = 0x00;
 pub const QUADRX1: u8 = 0x01;
